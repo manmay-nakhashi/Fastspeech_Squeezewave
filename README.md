@@ -1,4 +1,4 @@
-# FastSpeech-Pytorch
+# FastSpeech-Squeezewave-Pytorch
 The Implementation of FastSpeech Based on Pytorch.
 
 ## Update
