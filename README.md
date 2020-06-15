@@ -41,36 +41,37 @@ Run `python train.py`.
 Run `python synthesis.py "write your TTS Here"`.
 
 ## Inference Time
-Intel® Core™ i5-6300U CPU 
-example 1
-taskset --cpu-list 1 python3 synthesis.py "Fastspeech with Squeezewave vocoder in pytorch , very fast inference on cpu"
-Speech synthesis time: 
+<br />Intel® Core™ i5-6300U CPU<br />
+<br />example 1<br />
+<br />taskset --cpu-list 1 python3 synthesis.py "Fastspeech with Squeezewave vocoder in pytorch , very fast inference on cpu"<br />
+<br />Speech synthesis time: 
 1.7220683097839355
-soxi out:
-Input File     : 'results/Fastspeech with Squeezewave vocoder in pytorch , very fast inference on cpu_112000_squeezewave.wav'
-Channels       : 1
-Sample Rate    : 22050
-Precision      : 16-bit
-Duration       : 00:00:05.96 = 131328 samples ~ 446.694 CDDA sectors
-File Size      : 263k
-Bit Rate       : 353k
-Sample Encoding: 16-bit Signed Integer PCM
-approx. 6 sec. audio output in 1.72 sec on single cpu
 
-example 2
-taskset --cpu-list 0 python3 synthesis.py "How are you"
-Speech synthesis time:
+<br />soxi out:
+<br />Input File     : 'results/Fastspeech with Squeezewave vocoder in pytorch , very fast inference on cpu_112000_squeezewave.wav'
+<br />Channels       : 1
+<br />Sample Rate    : 22050
+<br />Precision      : 16-bit
+<br />Duration       : 00:00:05.96 = 131328 samples ~ 446.694 CDDA sectors
+<br />File Size      : 263k
+<br />Bit Rate       : 353k
+<br />Sample Encoding: 16-bit Signed Integer PCM
+<br />approx. 6 sec. audio output in 1.72 sec on single cpu
+
+<br />example 2
+<br />taskset --cpu-list 0 python3 synthesis.py "How are you"
+<br />Speech synthesis time:
 0.3431851863861084
-soxi out:
-Input File     : 'results/How are you _112000_squeezewave.wav'
-Channels       : 1
-Sample Rate    : 22050
-Precision      : 16-bit
-Duration       : 00:00:00.85 = 18688 samples ~ 63.5646 CDDA sectors
-File Size      : 37.4k
-Bit Rate       : 353k
-Sample Encoding: 16-bit Signed Integer PCM
-0.85 sec. audio output in 0.34 sec on single cpu
+<br />soxi out:
+<br />Input File     : 'results/How are you _112000_squeezewave.wav'
+<br />Channels       : 1
+<br />Sample Rate    : 22050
+<br />Precision      : 16-bit
+<br />Duration       : 00:00:00.85 = 18688 samples ~ 63.5646 CDDA sectors
+<br />File Size      : 37.4k
+<br />Bit Rate       : 353k
+<br />Sample Encoding: 16-bit Signed Integer PCM
+<br />0.85 sec. audio output in 0.34 sec on single cpu
 ## Pretrained Model
 - Baidu: [Step:112000](https://pan.baidu.com/s/1by3-8t3A6uihK8K9IFZ7rg) Enter Code: xpk7
 - OneDrive: [Step:112000](https://1drv.ms/u/s!AuC2oR4FhoZ29kriYhuodY4-gPsT?e=zUIC8G)
