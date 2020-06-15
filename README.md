@@ -94,3 +94,6 @@ Run `python synthesis.py "write your TTS Here"`.
 - [The Implementation of Transformer Based on Pytorch](https://github.com/jadore801120/attention-is-all-you-need-pytorch)
 - [The Implementation of Transformer-TTS Based on Pytorch](https://github.com/xcmyz/Transformer-TTS)
 - [The Implementation of Tacotron2 Based on Pytorch](https://github.com/NVIDIA/tacotron2)
+- [The Implementation of Squeezewave Based n Pytorch](https://github.com/tianrengao/SqueezeWave)
+- [SqueezeWave: Extremely Lightweight Vocoders for On-device Speech Synthesis](https://arxiv.org/abs/2001.05685)
+- [FastSpeech: Fast, Robust and Controllable Text to Speech](https://arxiv.org/abs/1905.09263)
